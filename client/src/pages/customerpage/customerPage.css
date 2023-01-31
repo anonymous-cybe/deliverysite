@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,900&display=swap');
+
+.customer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#address{
+    width: 80%;
+    padding: 1rem;
+}
+.text-center h3{
+    color: #696969;
+    font-family:'merriweather',sans-serif;
+    font-weight: 600;
+}
+
+#map-pin{
+    font-size: 18px;
+    margin-left: 10%;
+    color: #00755E;
+}
+.input-group{
+    margin-bottom: 0px !important;
+}
+
+#deliver-text{
+    font-family:'merriweather' !important;
+    font-weight: 500 !important;
+    font-size:18px;
+    color: #696969 !important;
+    margin-bottom: 0%;
+
+}
+.address-container{
+    display: flex;
+    justify-content: center;
+}

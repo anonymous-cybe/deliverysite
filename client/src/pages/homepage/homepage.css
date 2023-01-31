@@ -1,0 +1,99 @@
+:root {
+    --primary: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,900&display=swap');
+ #container{
+    min-height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /* background-color: #014e3f;  */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0% !important; 
+    position: relative; 
+}
+#logo-img{
+    height: 5%;
+    /* background-color:#fff; */
+    padding: 30px 80px;
+    width: 100%;
+    position:absolute;
+    top: 0;
+}
+#logo-img img{
+    width: 150px;
+    height:30px;
+}
+#main{
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    height: min(50vh, 600px);
+}
+
+
+@media screen and (max-width: 625px){
+    #main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.user_card {
+    width: min(100% - 2rem, 350px);
+    margin-inline: auto;
+    background-color: var(--primary);
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.user_card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user_card h2 {
+    position: absolute;
+    top: 20px;
+    right: 15%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'merriweather';
+    color: #696969;
+    transition: color 1.5s ease-out;
+}
+.user_card:hover h2{
+    color:#014e3f !important;
+    text-shadow:1px 2px 8px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 599px) { 
+    #main{
+        flex-direction:column;
+        width: 100% !important;
+    }
+  
+    
+    .link{
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #rider{
+        margin-top: 17px !important;
+    }
+ }
+
+
+

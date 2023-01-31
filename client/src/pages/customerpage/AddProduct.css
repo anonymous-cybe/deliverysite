@@ -1,0 +1,25 @@
+.add-product-parent-container{
+    display: flex;
+    justify-content: center;
+}
+#add-product-container{
+    /* background-color: red; */
+    width: 60%;
+}
+#add-product-container .input-item{
+    padding:0px 5px!important;
+    border-radius: 1rem !important;
+}
+#add-product-container .input-item::placeholder{
+    font-family:'merriweather';
+}
+button{
+    padding: 1rem 1.1rem !important;
+    border: none !important;
+    outline: none !important;
+    
+}
+.span{
+    background-color: red !important;
+    color: blue !important;
+}

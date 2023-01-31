@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,900&display=swap');
+.card{
+    border: none !important;
+}
+.container{    
+    margin-top: 5rem;
+    
+    display: block !important; 
+    margin-bottom: 5%;     
+}
+.title{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 38px;
+    font-family:roboto;
+    color: #605f5f;
+}
+.card-title{
+    color: #464646;
+}
+.card-text{
+    color: #767575;
+}
+.col{
+    
+    margin-left: 9px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
